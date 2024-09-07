@@ -1,4 +1,4 @@
-🚗 ParkPro
+## 🚗 ParkPro
 Welcome to the ParkPro project! 🎉 This application is designed to help users find parking spots, check vehicle details, and access weather updates, among other features. To run this project successfully, you'll need to set up a few API keys and Firebase configurations. Follow the steps below to get started!
 
 🛠️ Prerequisites
