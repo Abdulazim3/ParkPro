@@ -13,7 +13,7 @@ Before you can run the app, make sure you have the following:
 - 📱 Android Studio installed on your machine.
 - 🔑 A Google account to access Google APIs.
 - ☁️ An account with OpenWeatherMap to obtain the weather API key.
-- 🚘 An account with the DVLA for vehicle API access.
+- 🚘 An account with the DVLA for vehicle API access. (which can be obtained from here https://developer-portal.driver-vehicle-licensing.api.gov.uk/apis/vehicle-enquiry-service/vehicle-enquiry-service-description.html)
 - 🔥 A Firebase project set up for the app's database.
 
 ---
