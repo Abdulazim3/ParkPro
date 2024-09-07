@@ -97,8 +97,38 @@ Launch the project in Android Studio.
 Insert API Keys & Configurations: 🔑
 
 Replace the placeholders with your API keys and Firebase configurations as detailed above.
+
 Build & Run the App: 🏃‍♂️
 
 Run the project on an emulator or physical device to see your app in action!
+
 🔍 Additional Notes
 Security Tip: 🚨 Ensure that API keys are not hardcoded into the source code if you're pushing to a public repository. Use environment variables or other secure methods to handle sensitive information.
+
+
+🖼️ Screenshots
+Explore the key screens of the ParkingApp:
+
+1. Landing Page
+![1](https://github.com/user-attachments/assets/90a74af7-7aca-4444-a247-87d8c14cdb72)
+
+2. Register Page
+
+
+3. Login Page
+
+
+4. Home Page
+
+
+5. Parking Page
+
+
+6. Vehicle Page
+
+
+7. Carpark Page
+
+
+8. Review Page
+
