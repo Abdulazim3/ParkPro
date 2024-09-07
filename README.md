@@ -106,29 +106,30 @@ Run the project on an emulator or physical device to see your app in action!
 Security Tip: 🚨 Ensure that API keys are not hardcoded into the source code if you're pushing to a public repository. Use environment variables or other secure methods to handle sensitive information.
 
 
-🖼️ Screenshots
-Explore the key screens of the ParkingApp:
+## 🖼️ Screenshots
 
-1. Landing Page
-![1](https://github.com/user-attachments/assets/90a74af7-7aca-4444-a247-87d8c14cdb72)
+### 1. Landing Page
+<img src="https://github.com/user-attachments/assets/90a74af7-7aca-4444-a247-87d8c14cdb72" alt="Landing Page" width="400"/>
 
-2. Register Page
+### 2. Register Page
+<img src="https://github.com/user-attachments/assets/956003b3-565d-4352-815c-fb97ad1f02ac" alt="Register Page" width="400"/>
 
+### 3. Login Page
+<img src="https://github.com/user-attachments/assets/9eeaf5a9-81a9-4f79-8a25-df526559e8fb" alt="Login Page" width="400"/>
 
-3. Login Page
+### 4. Home Page
+<img src="https://github.com/user-attachments/assets/f644fb90-54d2-4a7f-8952-e39bb448a9a1" alt="Home Page" width="400"/>
 
+### 5. Parking Page
+<img src="https://github.com/user-attachments/assets/e9254028-1b17-4305-88cb-63969296857c" alt="Parking Page" width="400"/>
 
-4. Home Page
+### 6. Vehicle Page
+<img src="https://github.com/user-attachments/assets/b052f037-91dc-4e36-aa19-f6c4b52681ab" alt="Vehicle Page" width="400"/>
 
+### 7. Carpark Page
+<img src="https://github.com/user-attachments/assets/b601c232-e1e9-48bb-97e9-084594332448" alt="Carpark Page" width="400"/>
 
-5. Parking Page
+### 8. Review Page
+<img src="https://github.com/user-attachments/assets/3f666210-e5a6-46ad-a26f-cf757fdf1b00" alt="Review Page" width="400"/>
 
-
-6. Vehicle Page
-
-
-7. Carpark Page
-
-
-8. Review Page
 
