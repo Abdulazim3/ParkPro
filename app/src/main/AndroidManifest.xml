@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/parkproicon_main"
+        android:label="ParkPro"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParkingApp"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".Activities.WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ParkingApp" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.ParkingApp" />
+
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.ParkingApp"/>
+
+        <activity
+            android:name=".Activities.TestActivity"
+            android:exported="false"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.ParkingApp"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="insert google API key" />
+
+
+        <activity
+            android:name=".Activities.VehicleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_vehicle"
+            android:theme="@style/Theme.ParkingApp"/>
+
+
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="false"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.ParkingApp" />
+        <activity
+            android:name=".Activities.ReviewActivity"
+            android:exported="false"
+            android:label="@string/title_activity_review"
+            android:theme="@style/Theme.ParkingApp" />
+
+        <activity
+            android:name=".Activities.SignInActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/Theme.ParkingApp" />
+
+        <activity
+            android:name=".Activities.AdminActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/Theme.ParkingApp" />
+
+        <activity
+            android:name=".Activities.SettingsVehicleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settingsvehicle"
+            android:theme="@style/Theme.ParkingApp" />#
+
+        <activity
+            android:name=".Activities.MainTestActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maintest"
+            android:theme="@style/Theme.ParkingApp" />
+
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ParkingApp">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

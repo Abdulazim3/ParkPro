@@ -1,0 +1,28 @@
+<!-- res/layout/nav_header.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/alabaster"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="218dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/parkprolondon" />
+
+    <TextView
+        android:id="@+id/textViewHeaderName"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@color/carolineblue"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:gravity="center"
+        android:text="Header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Divider as a view -->
+
+</LinearLayout>

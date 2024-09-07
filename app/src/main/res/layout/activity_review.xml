@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alabaster"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/carParkNameReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:paddingBottom="8dp"
+        android:text="Car Park Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/carParkImageReview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/outlinebox"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:paddingLeft="2dp"
+        android:paddingTop="8dp"
+        android:text="Reviews"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReviews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:text="Your Rating:"
+        android:textColor="@color/black" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:progressTint="@color/prussianbluek"
+        android:secondaryProgressTint="@color/bluemunsell"
+        android:stepSize="1" />
+
+    <EditText
+        android:id="@+id/etReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:hint="Write a review"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnSubmitReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/prussianbluek"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:gravity="center_vertical"
+        android:text="Submit Review" />
+
+</LinearLayout>

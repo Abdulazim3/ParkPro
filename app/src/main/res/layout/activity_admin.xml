@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Activities.AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/carparkNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Car Park Name" />
+
+        <EditText
+            android:id="@+id/standardBaysInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Standard Bays"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/disabledBaysInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Disabled Bays"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/carparkAddressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Car Park Address" />
+
+        <EditText
+            android:id="@+id/carparkPricesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Car Park Prices (e.g., 1hr=£1, 3hrs=£3)" />
+
+        <EditText
+            android:id="@+id/entranceImageUrlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrance Image URL" />
+
+        <EditText
+            android:id="@+id/entranceDescriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrance Description" />
+
+        <EditText
+            android:id="@+id/restrictionsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restrictions" />
+
+        <EditText
+            android:id="@+id/carparkOpeningTimesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OpeningTimes eg Monday 5-7pm, Tuesday Closed" />
+
+        <EditText
+            android:id="@+id/paymentMethodsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Payment Methods eg cash, card, PayByPhone - Seperated by Comas" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

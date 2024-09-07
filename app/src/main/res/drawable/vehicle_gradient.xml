@@ -1,0 +1,22 @@
+<!-- res/drawable/gradient_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp" />
+
+    <gradient
+    android:startColor="@color/alabaster"
+    android:endColor="@color/carolineblue"
+    android:angle="90"/>
+<!--    <solid android:color="@color/carolineblue"/> &lt;!&ndash; Background color &ndash;&gt;-->
+    <stroke
+        android:width="2dp"
+        android:color="@color/black"/>
+
+</shape>
+
+
+
+    <!--<gradient-->
+    <!--android:startColor="@color/alabaster"-->
+    <!--android:endColor="@color/red"-->
+    <!--android:angle="90"/>-->

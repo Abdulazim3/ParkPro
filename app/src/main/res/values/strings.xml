@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ParkPro</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_settings">SettingActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_vehicle">VehicleActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="title_activity_settingsvehicle">SettingsVehicleActivity</string>
+    <string name="title_activity_maintest">MainTestActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+
+    <string name="google_maps_api_key">insert google API key"</string>
+    <string name="google_place_api_key">insert places API key</string>
+
+    <string name="vehicle_api_key">insert dvla vehicle api key </string>
+    <string name="vehicle_api_test_key"> "insert dvla vehicle test environment api key</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+
+</resources>

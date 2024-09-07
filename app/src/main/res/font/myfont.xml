@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the regular style for the font family -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/lexend_black" /> <!-- Make sure your font file is named correctly -->
+    <!-- You can add more styles here if you have other font files -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/clashgrotesk_regular" />
+
+</font-family>

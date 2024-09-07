@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="light_blue">#437C8F</color>
+    <color name="red">#BF3131</color>
+    <color name="dark_blue">#FF003366</color>
+    <color name="orange">#FF9800</color>
+    <color name="soft_light_gray">#FFD3D3D3</color>
+    <color name="gentle_green">#FF90EE90</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="dark_gray">#2C2C2C</color>
+    <color name="topnavigationbarblue">#FF011736</color>
+
+    <color name="seriousColor">#9f0710</color> <!-- Red for serious -->
+    <color name="goodColor">#09BC8A</color> <!-- Green for good -->
+
+
+    <color name="eerieblack">#1C1C1C</color>
+    <color name="ghostwhite">#fafaff</color>
+    <color name="antiflashwhite">#eef0f2</color>
+    <color name="alabaster">#ECEBE4</color>
+
+    <color name="midnightgreen">#004346</color>
+    <color name="prussianbluek">#172A3A</color>
+    <color name="bluemunsell">#508991</color>
+    <color name="mint">#09BC8A</color>
+    <color name="carolineblue">#74B3CE</color>
+    <color name="divider_color">@color/black</color>
+
+
+
+</resources>

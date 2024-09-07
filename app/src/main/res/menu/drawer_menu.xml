@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@drawable/caricon"
+            android:title="Vehicle" />
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/parkingicon"
+
+            android:title="Parking Map" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settingsicon"
+            android:title="Settings" />
+    </group>
+    <item android:title="" android:enabled="false" android:checkable="false">
+        <menu>
+            <item
+                android:id="@+id/divider_item"
+                android:layout="@layout/nav_drawer_divider"
+                android:title="" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_help_and_support"
+        android:icon="@drawable/helpicon"
+        android:title="Help and Support" />
+    <item
+        android:id="@+id/nav_app_feedback"
+        android:icon="@drawable/feedbackicon"
+        android:title="App Feedback" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logouticon"
+        android:title="Log Out" />
+</menu>

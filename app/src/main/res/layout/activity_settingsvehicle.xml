@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alabaster"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/update_number_plate_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edges2"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Update Number Plate"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number_plate_entry"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/update_number_plate_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_edges_yellow"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:hint="Enter Number Plate"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/number_plate_entry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_plate_entry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/prussianbluek"
+        android:fontFamily="@font/clashgrotesk_regular"
+        android:text="Enter"
+        android:textAlignment="center"
+        android:textColor="@color/alabaster"
+        android:textStyle="bold" />
+
+</RelativeLayout>
