@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "your project number",
     "project_id": "your project id",
-    "storage_bucket": "parkingapp-498e6.appspot.com"
+    "storage_bucket": "your Storage Bucket"
   },
   "client": [
     {
