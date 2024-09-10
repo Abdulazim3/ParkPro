@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1080731491076:android:6989a2c43cdc6e00190e51",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.example.parkingapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDe5-7q1wHsVkQwF6yG3bDaMf2hWhWKSkg"
+          "current_key": "Your API key"
         }
       ],
       "services": {
