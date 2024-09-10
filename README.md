@@ -132,7 +132,7 @@ Follow these steps to get the project running:
 
 ### 8. Review Page
 
-<img src="https://github.com/user-attachments/assets/3f666210-e5a6-46ad-a26f-cf757fdf1b00" alt="Review Page" width="400"/>
+<img src="https://github.com/user-attachments/assets/daeb9105-4343-479e-8bd3-1a75cefbb60e" alt="Review Page" width="400"/>
 
 ---
 
